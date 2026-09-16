@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function Home() {
   return (
     <>
@@ -166,9 +168,9 @@ export default function Home() {
                     <h3 className="fs-5 fw-semibold mb-2">{service.title}</h3>
                     <p className="text-secondary small mb-3">{service.desc}</p>
                   </div>
-                  <a href="#services" className={`text-decoration-none fw-semibold small ${service.color} d-inline-flex align-items-center gap-1`}>
+                  <Link to="/services" className={`text-decoration-none fw-semibold small ${service.color} d-inline-flex align-items-center gap-1`}>
                     {service.link} <i className="bi bi-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             ))}
@@ -309,9 +311,9 @@ export default function Home() {
                     <li className="d-flex align-items-center gap-2"><i className="bi bi-check-circle-fill text-brand"></i> Multi-provider routing: Google Gemini, Claude, local Ollama</li>
                     <li className="d-flex align-items-center gap-2"><i className="bi bi-check-circle-fill text-brand"></i> One-click packaging into Docker &amp; Helm chart deployments</li>
                   </ul>
-                  <a href="#products" className="btn text-white rounded-3 px-4 py-2 d-inline-flex align-items-center gap-2" style={{ background: 'var(--brand-primary-light)' }}>
+                  <Link href="#products" className="btn text-white rounded-3 px-4 py-2 d-inline-flex align-items-center gap-2" style={{ background: 'var(--brand-primary-light)' }}>
                     Explore NeuroFlow <i className="bi bi-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-lg-7">
                   <div className="bg-white rounded-3 shadow-sm p-3">

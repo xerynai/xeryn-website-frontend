@@ -270,6 +270,355 @@ export default function Services() {
           </div>
         </div>
       </section>
+
+      {/* ===== BLOCK 3: MACHINE LEARNING & PREDICTIVE ANALYTICS ===== */}
+      <section className="py-5 bg-white">
+        <div className="container-xl py-4">
+          <div className="row g-5 align-items-center">
+
+            {/* Content column */}
+            <div className="col-lg-6">
+              <div
+                className="d-flex align-items-center justify-content-center rounded-3 bg-light mb-3 shadow-sm"
+                style={{ width: 48, height: 48 }}
+              >
+                <i className="bi bi-diagram-3 text-brand fs-4"></i>
+              </div>
+              <small className="text-brand fw-semibold text-uppercase d-block mb-2" style={{ letterSpacing: '0.05em' }}>
+                Mathematical Rigor
+              </small>
+              <h2 className="fw-bold display-6 mb-3">Machine Learning &amp; Predictive Analytics</h2>
+              <p className="text-secondary mb-4">
+                Move past toy models into industrial-scale statistical learning. We architect
+                self-updating predictive pipelines, automated feature stores, and deep learning
+                architectures tailored to enterprise risk, pricing, and dynamic forecasting.
+              </p>
+
+              <div className="row g-2 mb-4">
+                {['Bespoke Deep Learning Models', 'Predictive Time-Series Forecasting', 'Automated Feature Stores', 'Continuous MLOps Pipelines'].map((item) => (
+                  <div className="col-sm-6 d-flex align-items-center gap-2" key={item}>
+                    <i className="bi bi-check-circle-fill text-brand"></i>
+                    <span className="small fw-medium">{item}</span>
+                  </div>
+                ))}
+              </div>
+
+              <div className="d-flex flex-wrap gap-2 mb-4">
+                {['Python', 'PyTorch', 'TensorFlow', 'Scikit-learn', 'MLflow', 'Ray Core'].map((tech) => (
+                  <span key={tech} className="badge bg-light text-secondary fw-medium rounded-pill px-3 py-2">
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              <a
+                href="/#contact"
+                className="btn brand-gradient rounded-3 px-4 py-2 d-inline-flex align-items-center gap-2"
+              >
+                Consult ML Specialists <i className="bi bi-arrow-right"></i>
+              </a>
+            </div>
+
+            {/* Visual column - loss curve dashboard */}
+            <div className="col-lg-6">
+              <div className="bg-white rounded-4 shadow-lg p-4">
+                <div className="d-flex align-items-center justify-content-between border-bottom pb-2 mb-3">
+                  <div className="d-flex align-items-center gap-2">
+                    <i className="bi bi-graph-up text-brand"></i>
+                    <span className="fw-semibold">Epoch Telemetry #420</span>
+                  </div>
+                  <span className="badge" style={{ background: '#eaddff', color: 'var(--brand-primary)' }}>
+                    Val Loss: 0.0124
+                  </span>
+                </div>
+
+                {/* Loss curve chart */}
+                <div className="bg-light rounded-3 p-3 mb-3">
+                  <div className="d-flex justify-content-between text-secondary mb-2" style={{ fontSize: '0.7rem' }}>
+                    <span>Loss Convergence Curve (Train vs Validation)</span>
+                    <span className="text-brand fw-bold">r² = 0.988</span>
+                  </div>
+                  <svg width="100%" height="128" viewBox="0 0 300 100">
+                    <line x1="0" y1="20" x2="300" y2="20" stroke="#ccc3d8" strokeDasharray="2 2" />
+                    <line x1="0" y1="50" x2="300" y2="50" stroke="#ccc3d8" strokeDasharray="2 2" />
+                    <line x1="0" y1="80" x2="300" y2="80" stroke="#ccc3d8" strokeDasharray="2 2" />
+                    <path d="M0 90 Q 60 70, 120 30 T 300 15" fill="none" stroke="#7C3AED" strokeWidth="2.5" />
+                    <path d="M0 95 Q 60 85, 120 40 T 300 22" fill="none" stroke="#2563EB" strokeDasharray="4 2" strokeWidth="2" />
+                  </svg>
+                </div>
+
+                {/* Confusion matrix stats */}
+                <div className="row g-2">
+                  <div className="col-6">
+                    <div className="bg-light rounded-3 p-2">
+                      <div className="text-secondary" style={{ fontSize: '0.7rem' }}>True Positives</div>
+                      <div className="fw-bold fs-5">99.4%</div>
+                      <div className="text-brand" style={{ fontSize: '0.7rem' }}>+0.8% post-quantization</div>
+                    </div>
+                  </div>
+                  <div className="col-6">
+                    <div className="bg-light rounded-3 p-2">
+                      <div className="text-secondary" style={{ fontSize: '0.7rem' }}>F1 Micro Score</div>
+                      <div className="fw-bold fs-5 text-primary">0.976</div>
+                      <div className="text-secondary" style={{ fontSize: '0.7rem' }}>12.8M sampled tokens</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* ===== BLOCK 4: CUSTOM AI APPLICATIONS & LLM SYSTEMS ===== */}
+      <section className="py-5 bg-light">
+        <div className="container-xl py-4">
+          <div className="row g-5 align-items-center">
+
+            {/* Visual column - agent reasoning trace (left on desktop) */}
+            <div className="col-lg-6 order-2 order-lg-1">
+              <div className="bg-white rounded-4 shadow-lg p-3">
+
+                <div className="d-flex align-items-center justify-content-between border-bottom pb-2 mb-2">
+                  <div className="d-flex align-items-center gap-2">
+                    <span className="rounded-circle bg-brand" style={{ width: 8, height: 8, background: 'var(--brand-primary)' }}></span>
+                    <span className="fw-semibold small">Multi-Agent Swarm Runtime</span>
+                  </div>
+                  <span className="badge bg-light text-secondary">LangGraph / Qdrant</span>
+                </div>
+
+                {/* Query message */}
+                <div className="bg-light rounded-3 p-2 mb-2">
+                  <div className="d-flex justify-content-between mb-1">
+                    <small className="fw-bold">Client Orchestrator</small>
+                    <small className="text-secondary">10:42:01 AM</small>
+                  </div>
+                  <p className="small mb-0">
+                    Generate Q3 revenue forecast with semantic variance flags against SEC 10-K filings.
+                  </p>
+                </div>
+
+                {/* Reasoning trace */}
+                <div className="ps-3 border-start border-2 mb-2" style={{ borderColor: 'var(--brand-primary-light) !important' }}>
+                  <div className="d-flex align-items-center gap-2 text-brand small mb-1">
+                    <i className="bi bi-diagram-2"></i>
+                    <span>Agent Alpha: Vector retrieve 4,200 chunks via Hybrid Sparse-Dense Search</span>
+                  </div>
+                  <div className="d-flex align-items-center gap-2 text-primary small">
+                    <i className="bi bi-shield-check"></i>
+                    <span>Agent Beta: NeMo Guardrails check passed (Confidence: 0.998)</span>
+                  </div>
+                </div>
+
+                {/* Output */}
+                <div className="rounded-3 p-2" style={{ background: '#eae5ff' }}>
+                  <div className="d-flex justify-content-between mb-1">
+                    <small className="fw-bold text-brand">Synthesized Analysis</small>
+                    <small className="text-secondary">Latency: 280ms</small>
+                  </div>
+                  <p className="small mb-0">
+                    Consensus suggests 14.8% YoY margin expansion based on consolidated inventory
+                    turnaround metrics in chunk doc_id: #891.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Content column */}
+            <div className="col-lg-6 order-1 order-lg-2">
+              <div
+                className="d-flex align-items-center justify-content-center rounded-3 bg-white mb-3 shadow-sm"
+                style={{ width: 48, height: 48 }}
+              >
+                <i className="bi bi-stars text-brand fs-4"></i>
+              </div>
+              <small className="text-brand fw-semibold text-uppercase d-block mb-2" style={{ letterSpacing: '0.05em' }}>
+                Autonomous Cognition
+              </small>
+              <h2 className="fw-bold display-6 mb-3">Custom AI Applications &amp; LLM Systems</h2>
+              <p className="text-secondary mb-4">
+                We convert frontier foundational models into dependable enterprise workforce
+                engines. Utilizing retrieval-augmented generation (RAG), autonomous multi-agent
+                meshes, and domain fine-tuning, we eliminate hallucinations while preserving
+                data sovereignty.
+              </p>
+
+              <div className="row g-2 mb-4">
+                {['Enterprise RAG Pipelines', 'Multi-Agent Collaboration Frameworks', 'On-Premise Fine-Tuned Models', 'Strict Guardrails & Continuous Eval'].map((item) => (
+                  <div className="col-sm-6 d-flex align-items-center gap-2" key={item}>
+                    <i className="bi bi-check-circle-fill text-brand"></i>
+                    <span className="small fw-medium">{item}</span>
+                  </div>
+                ))}
+              </div>
+
+              <div className="d-flex flex-wrap gap-2 mb-4">
+                {['Gemini API', 'LangChain', 'LlamaIndex', 'Qdrant', 'ChromaDB', 'Hugging Face'].map((tech) => (
+                  <span key={tech} className="badge bg-white text-secondary fw-medium rounded-pill px-3 py-2">
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              <a
+                href="/#contact"
+                className="btn brand-gradient rounded-3 px-4 py-2 d-inline-flex align-items-center gap-2"
+              >
+                Architect Custom AI <i className="bi bi-arrow-right"></i>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* ===== ENGAGEMENT MODELS SECTION ===== */}
+      <section className="py-5 bg-white">
+        <div className="container-xl py-4">
+
+          {/* Section header */}
+          <div className="text-center mx-auto mb-5" style={{ maxWidth: 700 }}>
+            <span
+              className="d-inline-flex align-items-center rounded-pill px-3 py-1 mb-3"
+              style={{ background: '#dbe1ff', color: 'var(--brand-secondary)' }}
+            >
+              <small className="fw-semibold text-uppercase" style={{ letterSpacing: '0.05em' }}>
+                Engagement Modalities
+              </small>
+            </span>
+            <h2 className="fw-bold display-6 mb-2">Tailored Delivery Frameworks</h2>
+            <p className="text-secondary mb-0">
+              Choose how our senior engineers embed into your technical organization.
+            </p>
+          </div>
+
+          {/* 3 model cards */}
+          <div className="row g-4 align-items-stretch">
+
+            {/* Model 1: Dedicated Squad */}
+            <div className="col-md-4">
+              <div className="bg-white border rounded-4 shadow-sm p-4 h-100 d-flex flex-column justify-content-between">
+                <div>
+                  <div
+                    className="d-flex align-items-center justify-content-center rounded-3 bg-light mb-3"
+                    style={{ width: 40, height: 40 }}
+                  >
+                    <i className="bi bi-people text-brand"></i>
+                  </div>
+                  <h3 className="fs-5 fw-semibold mb-2">Dedicated Squad</h3>
+                  <p className="text-secondary small mb-3">
+                    Full-cycle engineering pods (Lead Architect, 2-4 Engineers, ML Researcher, QA)
+                    working exclusively within your repo and sprint cadence.
+                  </p>
+                  <ul className="list-unstyled d-flex flex-column gap-2 small mb-4">
+                    <li className="d-flex align-items-center gap-2"><i className="bi bi-check-lg text-brand"></i> Direct Slack / GitHub Integration</li>
+                    <li className="d-flex align-items-center gap-2"><i className="bi bi-check-lg text-brand"></i> Bi-weekly Milestone Reviews</li>
+                    <li className="d-flex align-items-center gap-2"><i className="bi bi-check-lg text-brand"></i> Full Intellectual Property Handover</li>
+                  </ul>
+                </div>
+                <a href="/#contact" className="btn w-100 rounded-3" style={{ background: '#eaddff', color: 'var(--brand-primary)' }}>
+                  Deploy Squad
+                </a>
+              </div>
+            </div>
+
+            {/* Model 2: Project-Based Sprint (highlighted "Popular") */}
+            <div className="col-md-4">
+              <div className="bg-white border rounded-4 shadow-sm p-4 h-100 d-flex flex-column justify-content-between position-relative overflow-hidden">
+                <span
+                  className="position-absolute top-0 end-0 text-white small fw-semibold px-3 py-1"
+                  style={{ background: 'var(--brand-secondary)', borderBottomLeftRadius: '0.5rem' }}
+                >
+                  POPULAR
+                </span>
+                <div>
+                  <div
+                    className="d-flex align-items-center justify-content-center rounded-3 bg-light mb-3"
+                    style={{ width: 40, height: 40 }}
+                  >
+                    <i className="bi bi-lightning-charge text-primary"></i>
+                  </div>
+                  <h3 className="fs-5 fw-semibold mb-2">Project-Based Sprint</h3>
+                  <p className="text-secondary small mb-3">
+                    Fixed-scope, milestone-driven execution for new MVPs, pipeline re-architectures,
+                    or specialized model deployments with guaranteed deadlines.
+                  </p>
+                  <ul className="list-unstyled d-flex flex-column gap-2 small mb-4">
+                    <li className="d-flex align-items-center gap-2"><i className="bi bi-check-lg text-primary"></i> Strict Fixed-Bid Scoping</li>
+                    <li className="d-flex align-items-center gap-2"><i className="bi bi-check-lg text-primary"></i> 60-Day Post-Launch SLA Warranty</li>
+                    <li className="d-flex align-items-center gap-2"><i className="bi bi-check-lg text-primary"></i> Comprehensive Docs &amp; Runbooks</li>
+                  </ul>
+                </div>
+                <a href="/#contact" className="btn text-white w-100 rounded-3" style={{ background: 'var(--brand-secondary)' }}>
+                  Kickoff Sprint
+                </a>
+              </div>
+            </div>
+
+            {/* Model 3: AI Advisory & Audit */}
+            <div className="col-md-4">
+              <div className="bg-white border rounded-4 shadow-sm p-4 h-100 d-flex flex-column justify-content-between">
+                <div>
+                  <div
+                    className="d-flex align-items-center justify-content-center rounded-3 bg-light mb-3"
+                    style={{ width: 40, height: 40 }}
+                  >
+                    <i className="bi bi-clipboard-data text-brand"></i>
+                  </div>
+                  <h3 className="fs-5 fw-semibold mb-2">AI Advisory &amp; Audit</h3>
+                  <p className="text-secondary small mb-3">
+                    Deep-dive technical evaluations of existing ML systems, latency profiling,
+                    vector db retrieval audits, and enterprise security evaluations.
+                  </p>
+                  <ul className="list-unstyled d-flex flex-column gap-2 small mb-4">
+                    <li className="d-flex align-items-center gap-2"><i className="bi bi-check-lg text-brand"></i> Comprehensive Vulnerability Dossier</li>
+                    <li className="d-flex align-items-center gap-2"><i className="bi bi-check-lg text-brand"></i> Latency &amp; GPU Cost Optimizations</li>
+                    <li className="d-flex align-items-center gap-2"><i className="bi bi-check-lg text-brand"></i> C-Level Tech Roadmap Presentation</li>
+                  </ul>
+                </div>
+                <a href="/#contact" className="btn btn-light w-100 rounded-3">
+                  Request Architecture Audit
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* ===== BOTTOM CTA BANNER ===== */}
+      <section className="py-5 bg-white">
+        <div className="container-xl">
+          <div
+            className="rounded-4 shadow-lg text-white p-4 p-md-5 position-relative overflow-hidden"
+            style={{ background: 'linear-gradient(90deg, var(--brand-primary), var(--brand-primary-light), var(--brand-secondary))' }}
+          >
+            <div className="row align-items-center g-4">
+              <div className="col-lg-8">
+                <small className="text-uppercase fw-semibold d-block mb-2" style={{ letterSpacing: '0.05em', opacity: 0.85 }}>
+                  Direct Engineering Line
+                </small>
+                <h2 className="fw-bold display-6 mb-3">Ready to build something defensible?</h2>
+                <p className="fs-5 mb-0" style={{ opacity: 0.9 }}>
+                  Schedule an introductory engineering consultation with one of our Principal
+                  Architects. We do not do high-pressure sales calls—only rigorous technical
+                  evaluations.
+                </p>
+              </div>
+              <div className="col-lg-4 text-lg-end">
+                <a
+                  href="/#contact"
+                  className="btn btn-light rounded-3 px-4 py-3 fw-semibold d-inline-flex align-items-center gap-2"
+                  style={{ color: 'var(--brand-primary)' }}
+                >
+                  Schedule Engineering Call <i className="bi bi-calendar-event"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
