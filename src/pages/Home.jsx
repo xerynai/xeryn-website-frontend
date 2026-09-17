@@ -513,9 +513,9 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-5">
-            <a href="#pricing" className="text-decoration-none fw-semibold text-brand d-inline-flex align-items-center gap-1">
+            <Link href="#pricing" className="text-decoration-none fw-semibold text-brand d-inline-flex align-items-center gap-1">
               View full pricing breakdowns, SLA terms & custom quotes <i className="bi bi-arrow-right"></i>
-            </a>
+            </Link>
           </div>
         </div>
       </section>

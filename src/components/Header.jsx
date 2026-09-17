@@ -5,9 +5,9 @@ export default function Header() {
     { label: 'Home', to: '/' },
     { label: 'Services', to: '/services' },
     { label: 'Products', to: '/products' },
-    { label: 'Pricing', to: '/#pricing' },
-    { label: 'About', to: '/#about' },
-    { label: 'Contact', to: '/#contact' },
+    { label: 'Pricing', to: '/pricing' },
+    { label: 'About', to: '/about' },
+    { label: 'Contact', to: '/contact' },
   ]
 
   return (
@@ -39,10 +39,10 @@ export default function Header() {
 
         {/* Right side */}
         <div className="d-flex align-items-center gap-3">
-          <Link
-            to="/#contact"
-            className="btn brand-gradient rounded-pill px-4 d-none d-sm-inline-flex align-items-center gap-2"
-          >
+         <Link
+              to="/#contact"
+              className="btn brand-gradient rounded-pill px-4 d-none d-sm-inline-flex align-items-center gap-2"
+            >
             Get in Touch
             <i className="bi bi-arrow-right"></i>
           </Link>

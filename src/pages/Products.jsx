@@ -689,6 +689,55 @@ export default function Products() {
         </div>
       </section>
 
+      {/* ===== BESPOKE ARCHITECTURE CTA ===== */}
+      <section className="py-5 py-lg-6 bg-white">
+        <div className="container-xl py-4">
+          <div className="text-center mx-auto" style={{ maxWidth: 700 }}>
+
+            <div
+              className="d-inline-flex align-items-center justify-content-center rounded-4 mb-4 shadow"
+              style={{ width: 64, height: 64, background: 'linear-gradient(135deg, var(--brand-primary-light), var(--brand-secondary))' }}
+            >
+              <i className="bi bi-diagram-3 text-white fs-2"></i>
+            </div>
+
+            <h2 className="fw-bold display-6 mb-3">
+              Need a Custom Edition Tailored to Your Infrastructure?
+            </h2>
+
+            <p className="text-secondary fs-5 mb-4">
+              We engineer proprietary model fine-tunes, custom air-gapped clusters, and custom
+              connectors directly integrated with your enterprise data lakes.
+            </p>
+
+            <div className="d-flex flex-column flex-sm-row justify-content-center gap-3 mb-4">
+              <a
+                href="/#contact"
+                className="btn brand-gradient rounded-3 px-4 py-3 fw-semibold d-inline-flex align-items-center justify-content-center gap-2"
+              >
+                Talk to Solutions Architect <i className="bi bi-arrow-right"></i>
+              </a>
+              <a
+                href="/#contact"
+                className="btn btn-light rounded-3 px-4 py-3 fw-semibold d-inline-flex align-items-center justify-content-center gap-2"
+              >
+                Review Whitepapers &amp; Benchmarks
+              </a>
+            </div>
+
+            <div className="d-flex flex-wrap justify-content-center gap-4 text-secondary small">
+              <span className="d-flex align-items-center gap-2">
+                <i className="bi bi-clock text-brand"></i> Direct 30-min engineering scoping
+              </span>
+              <span className="d-flex align-items-center gap-2">
+                <i className="bi bi-file-earmark-text text-brand"></i> Standard NDA provided on request
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       
     </>
   )
