@@ -229,6 +229,120 @@ export default function Contact() {
           </div>
         </div>
       </section>
+
+
+      {/* ===== ENTERPRISE ONBOARDING STANDARD ===== */}
+      <section className="py-5 bg-light">
+        <div className="container-xl py-4">
+
+          <div className="text-center mx-auto mb-5" style={{ maxWidth: 700 }}>
+            <small className="text-brand text-uppercase fw-semibold" style={{ letterSpacing: '0.05em' }}>
+              Commercial Assurance
+            </small>
+            <h2 className="fw-bold display-6 mt-2 mb-2">Enterprise Onboarding Standard</h2>
+            <p className="text-secondary mb-0">
+              Every engagement is bounded by institutional security, airtight provenance, and
+              non-negotiable architectural autonomy.
+            </p>
+          </div>
+
+          <div className="row g-4">
+            {[
+              {
+                icon: 'bi-patch-check',
+                title: '100% IP Handover',
+                desc: 'Full source repositories, training weights, deployment manifests, and model documentation belong completely to your entity from day one.',
+                footer: 'Perpetual License',
+              },
+              {
+                icon: 'bi-shield-check',
+                title: 'SOC2 Type II Certified Process',
+                desc: 'Encrypted build runners, strict air-gapped staging setups, and continuous pipeline audits adhering to tier-1 enterprise compliance standards.',
+                footer: 'Continuous Compliance',
+              },
+              {
+                icon: 'bi-unlock',
+                title: 'Zero Vendor Lock-in',
+                desc: 'Standard Kubernetes runtimes, open PyTorch pipelines, and agnostic cloud infrastructure. Run on your own AWS, GCP, or on-prem cluster.',
+                footer: 'Modular Portability',
+              },
+            ].map((badge) => (
+              <div className="col-md-4" key={badge.title}>
+                <div className="bg-white rounded-4 shadow-sm p-4 h-100">
+                  <div className="d-flex align-items-center justify-content-center rounded-3 bg-light mb-3" style={{ width: 48, height: 48 }}>
+                    <i className={`bi ${badge.icon} text-brand fs-4`}></i>
+                  </div>
+                  <h3 className="fs-5 fw-bold mb-2">{badge.title}</h3>
+                  <p className="text-secondary small mb-3">{badge.desc}</p>
+                  <div className="d-flex align-items-center gap-2 pt-3 border-top text-primary small fw-semibold">
+                    <span>{badge.footer}</span>
+                    <i className="bi bi-check-circle-fill"></i>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+        </div>
+      </section>
+
+      {/* ===== ENTERPRISE ONBOARDING STANDARD ===== */}
+      <section className="py-5 bg-light">
+        <div className="container-xl py-4">
+
+          <div className="text-center mx-auto mb-5" style={{ maxWidth: 700 }}>
+            <small className="text-brand text-uppercase fw-semibold" style={{ letterSpacing: '0.05em' }}>
+              Commercial Assurance
+            </small>
+            <h2 className="fw-bold display-6 mt-2 mb-2">Enterprise Onboarding Standard</h2>
+            <p className="text-secondary mb-0">
+              Every engagement is bounded by institutional security, airtight provenance, and
+              non-negotiable architectural autonomy.
+            </p>
+          </div>
+
+          <div className="row g-4">
+            {[
+              {
+                icon: 'bi-patch-check',
+                title: '100% IP Handover',
+                desc: 'Full source repositories, training weights, deployment manifests, and model documentation belong completely to your entity from day one.',
+                footer: 'Perpetual License',
+              },
+              {
+                icon: 'bi-shield-check',
+                title: 'SOC2 Type II Certified Process',
+                desc: 'Encrypted build runners, strict air-gapped staging setups, and continuous pipeline audits adhering to tier-1 enterprise compliance standards.',
+                footer: 'Continuous Compliance',
+              },
+              {
+                icon: 'bi-unlock',
+                title: 'Zero Vendor Lock-in',
+                desc: 'Standard Kubernetes runtimes, open PyTorch pipelines, and agnostic cloud infrastructure. Run on your own AWS, GCP, or on-prem cluster.',
+                footer: 'Modular Portability',
+              },
+            ].map((badge) => (
+              <div className="col-md-4" key={badge.title}>
+                <div className="bg-white rounded-4 shadow-sm p-4 h-100">
+                  <div className="d-flex align-items-center justify-content-center rounded-3 bg-light mb-3" style={{ width: 48, height: 48 }}>
+                    <i className={`bi ${badge.icon} text-brand fs-4`}></i>
+                  </div>
+                  <h3 className="fs-5 fw-bold mb-2">{badge.title}</h3>
+                  <p className="text-secondary small mb-3">{badge.desc}</p>
+                  <div className="d-flex align-items-center gap-2 pt-3 border-top text-primary small fw-semibold">
+                    <span>{badge.footer}</span>
+                    <i className="bi bi-check-circle-fill"></i>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+        </div>
+      </section>
+
+
+
     </>
   )
 }

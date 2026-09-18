@@ -242,7 +242,7 @@ export default function Pricing() {
                   &amp; model audits, rapid proof-of-concept incubations, and production readiness
                   certifications.
                 </p>
-                <a href="/#contact" className="text-decoration-none fw-semibold text-brand d-inline-flex align-items-center gap-1">
+                <a href="/contact" className="text-decoration-none fw-semibold text-brand d-inline-flex align-items-center gap-1">
                   Request a Custom Proposal <i className="bi bi-arrow-right"></i>
                 </a>
               </div>
@@ -484,13 +484,13 @@ export default function Pricing() {
               <div className="col-lg-5">
                 <div className="d-flex flex-column flex-sm-row gap-3 justify-content-lg-end">
                   <a
-                    href="/#contact"
+                    href="/contact"
                     className="btn brand-gradient rounded-3 px-4 py-3 fw-semibold d-inline-flex align-items-center justify-content-center gap-2"
                   >
                     Book Discovery Call <i className="bi bi-calendar-event"></i>
                   </a>
                   <a
-                    href="/#contact"
+                    href="/contact"
                     className="btn text-white rounded-3 px-4 py-3 fw-semibold d-inline-flex align-items-center justify-content-center gap-2"
                     style={{ background: 'rgba(255,255,255,0.1)', border: '1px solid rgba(255,255,255,0.3)' }}
                   >

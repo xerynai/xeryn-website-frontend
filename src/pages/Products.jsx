@@ -185,8 +185,8 @@ export default function Products() {
 
                   {/* CTAs */}
                   <div className="d-flex gap-2">
-                    <a href="/#contact" className="btn brand-gradient flex-fill rounded-3">Request Demo</a>
-                    <a href="/#contact" className="btn btn-light flex-fill rounded-3">Read Specs</a>
+                    <a href="/contact" className="btn brand-gradient flex-fill rounded-3">Request Demo</a>
+                    <a href="/contact" className="btn btn-light flex-fill rounded-3">Read Specs</a>
                   </div>
                 </div>
               </div>
@@ -272,8 +272,8 @@ export default function Products() {
                   </ul>
 
                   <div className="d-flex gap-2">
-                    <a href="/#contact" className="btn brand-gradient flex-fill rounded-3">Request Demo</a>
-                    <a href="/#contact" className="btn btn-light flex-fill rounded-3">Read Specs</a>
+                    <a href="/contact" className="btn brand-gradient flex-fill rounded-3">Request Demo</a>
+                    <a href="/contact" className="btn btn-light flex-fill rounded-3">Read Specs</a>
                   </div>
                 </div>
               </div>
@@ -358,8 +358,8 @@ export default function Products() {
                   </ul>
 
                   <div className="d-flex gap-2">
-                    <a href="/#contact" className="btn brand-gradient flex-fill rounded-3">Request Demo</a>
-                    <a href="/#contact" className="btn btn-light flex-fill rounded-3">Read Specs</a>
+                    <a href="/contact" className="btn brand-gradient flex-fill rounded-3">Request Demo</a>
+                    <a href="/contact" className="btn btn-light flex-fill rounded-3">Read Specs</a>
                   </div>
                 </div>
               </div>
@@ -447,8 +447,8 @@ export default function Products() {
                   </ul>
 
                   <div className="d-flex gap-2">
-                    <a href="/#contact" className="btn brand-gradient flex-fill rounded-3">Request Demo</a>
-                    <a href="/#contact" className="btn btn-light flex-fill rounded-3">Read Specs</a>
+                    <a href="/contact" className="btn brand-gradient flex-fill rounded-3">Request Demo</a>
+                    <a href="/contact" className="btn btn-light flex-fill rounded-3">Read Specs</a>
                   </div>
                 </div>
               </div>
@@ -532,8 +532,8 @@ export default function Products() {
                   </ul>
 
                   <div className="d-flex gap-2">
-                    <a href="/#contact" className="btn brand-gradient flex-fill rounded-3">Request Demo</a>
-                    <a href="/#contact" className="btn btn-light flex-fill rounded-3">Read Specs</a>
+                    <a href="/contact" className="btn brand-gradient flex-fill rounded-3">Request Demo</a>
+                    <a href="/contact" className="btn btn-light flex-fill rounded-3">Read Specs</a>
                   </div>
                 </div>
               </div>
@@ -617,8 +617,8 @@ export default function Products() {
                   </ul>
 
                   <div className="d-flex gap-2">
-                    <a href="/#contact" className="btn brand-gradient flex-fill rounded-3">Request Demo</a>
-                    <a href="/#contact" className="btn btn-light flex-fill rounded-3">Read Specs</a>
+                    <a href="/contact" className="btn brand-gradient flex-fill rounded-3">Request Demo</a>
+                    <a href="/contact" className="btn btn-light flex-fill rounded-3">Read Specs</a>
                   </div>
                 </div>
               </div>
@@ -712,13 +712,13 @@ export default function Products() {
 
             <div className="d-flex flex-column flex-sm-row justify-content-center gap-3 mb-4">
               <a
-                href="/#contact"
+                href="/contact"
                 className="btn brand-gradient rounded-3 px-4 py-3 fw-semibold d-inline-flex align-items-center justify-content-center gap-2"
               >
                 Talk to Solutions Architect <i className="bi bi-arrow-right"></i>
               </a>
               <a
-                href="/#contact"
+                href="/contact"
                 className="btn btn-light rounded-3 px-4 py-3 fw-semibold d-inline-flex align-items-center justify-content-center gap-2"
               >
                 Review Whitepapers &amp; Benchmarks

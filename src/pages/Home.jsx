@@ -48,10 +48,10 @@ export default function Home() {
 
           {/* CTA buttons */}
           <div className="d-flex flex-column flex-sm-row justify-content-center gap-3 mb-5">
-            <a href="#contact" className="btn brand-gradient rounded-3 px-4 py-3 d-inline-flex align-items-center justify-content-center gap-2">
+            <a href="/contact" className="btn brand-gradient rounded-3 px-4 py-3 d-inline-flex align-items-center justify-content-center gap-2">
               Schedule a Consultation <i className="bi bi-arrow-right"></i>
             </a>
-            <a href="#products" className="btn bg-white shadow-sm rounded-3 px-4 py-3 d-inline-flex align-items-center justify-content-center gap-2 border">
+            <a href="/products" className="btn bg-white shadow-sm rounded-3 px-4 py-3 d-inline-flex align-items-center justify-content-center gap-2 border">
               <i className="bi bi-terminal text-secondary"></i> Explore In-House Products
             </a>
           </div>
@@ -192,7 +192,7 @@ export default function Home() {
               <h2 className="fw-bold display-6">In-House AI Infrastructure &amp; Tools</h2>
             </div>
             <div className="col-lg-4 text-lg-end">
-              <a href="#products" className="text-decoration-none fw-semibold text-dark d-inline-flex align-items-center gap-1">
+              <a href="/products" className="text-decoration-none fw-semibold text-dark d-inline-flex align-items-center gap-1">
                 View all products <i className="bi bi-arrow-right"></i>
               </a>
             </div>
@@ -463,7 +463,7 @@ export default function Home() {
                     <li className="d-flex align-items-center gap-2"><i className="bi bi-check-lg text-brand"></i> Full IP transfer on delivery</li>
                   </ul>
                 </div>
-                <a href="#contact" className="btn btn-light w-100 rounded-3">Get Started</a>
+                <a href="/contact" className="btn btn-light w-100 rounded-3">Get Started</a>
               </div>
             </div>
 
@@ -487,7 +487,7 @@ export default function Home() {
                     <li className="d-flex align-items-center gap-2"><i className="bi bi-check-lg text-brand"></i> Full CI/CD & Kubernetes deployment</li>
                   </ul>
                 </div>
-                <a href="#contact" className="btn brand-gradient w-100 rounded-3">Get Started with Growth</a>
+                <a href="/contact" className="btn brand-gradient w-100 rounded-3">Get Started with Growth</a>
               </div>
             </div>
 
@@ -507,7 +507,7 @@ export default function Home() {
                     <li className="d-flex align-items-center gap-2"><i className="bi bi-check-lg text-primary"></i> Dedicated VP of Engineering liaison</li>
                   </ul>
                 </div>
-                <a href="#contact" className="btn btn-light w-100 rounded-3">Contact Enterprise Sales</a>
+                <a href="/contact" className="btn btn-light w-100 rounded-3">Contact Enterprise Sales</a>
               </div>
             </div>
           </div>
@@ -591,14 +591,14 @@ export default function Home() {
             </p>
             <div className="d-flex flex-column flex-sm-row justify-content-center gap-3">
               <a
-                href="#contact"
+                href="/contact"
                 className="btn btn-light rounded-3 px-4 py-3 fw-semibold d-inline-flex align-items-center justify-content-center gap-2"
                 style={{ color: 'var(--brand-primary)' }}
               >
                 Start Your Project Today <i className="bi bi-arrow-right"></i>
               </a>
               <a
-                href="#contact"
+                href="/contact"
                 className="btn rounded-3 px-4 py-3 fw-semibold d-inline-flex align-items-center justify-content-center gap-2 text-white"
                 style={{ background: 'rgba(255,255,255,0.1)', border: '1px solid rgba(255,255,255,0.3)' }}
               >

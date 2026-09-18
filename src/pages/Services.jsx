@@ -91,7 +91,7 @@ export default function Services() {
               </div>
 
               <a
-                href="/#contact"
+                href="/contact"
                 className="btn brand-gradient rounded-3 px-4 py-2 d-inline-flex align-items-center gap-2"
               >
                 Discuss Web Project <i className="bi bi-arrow-right"></i>
@@ -259,7 +259,7 @@ export default function Services() {
               </div>
 
               <a
-                href="/#contact"
+                href="/contact"
                 className="btn text-white rounded-3 px-4 py-2 d-inline-flex align-items-center gap-2"
                 style={{ background: 'var(--brand-secondary)' }}
               >
@@ -312,7 +312,7 @@ export default function Services() {
               </div>
 
               <a
-                href="/#contact"
+                href="/contact"
                 className="btn brand-gradient rounded-3 px-4 py-2 d-inline-flex align-items-center gap-2"
               >
                 Consult ML Specialists <i className="bi bi-arrow-right"></i>
@@ -462,7 +462,7 @@ export default function Services() {
               </div>
 
               <a
-                href="/#contact"
+                href="/contact"
                 className="btn brand-gradient rounded-3 px-4 py-2 d-inline-flex align-items-center gap-2"
               >
                 Architect Custom AI <i className="bi bi-arrow-right"></i>
@@ -517,7 +517,7 @@ export default function Services() {
                     <li className="d-flex align-items-center gap-2"><i className="bi bi-check-lg text-brand"></i> Full Intellectual Property Handover</li>
                   </ul>
                 </div>
-                <a href="/#contact" className="btn w-100 rounded-3" style={{ background: '#eaddff', color: 'var(--brand-primary)' }}>
+                <a href="/contact" className="btn w-100 rounded-3" style={{ background: '#eaddff', color: 'var(--brand-primary)' }}>
                   Deploy Squad
                 </a>
               </div>
@@ -550,7 +550,7 @@ export default function Services() {
                     <li className="d-flex align-items-center gap-2"><i className="bi bi-check-lg text-primary"></i> Comprehensive Docs &amp; Runbooks</li>
                   </ul>
                 </div>
-                <a href="/#contact" className="btn text-white w-100 rounded-3" style={{ background: 'var(--brand-secondary)' }}>
+                <a href="/contact" className="btn text-white w-100 rounded-3" style={{ background: 'var(--brand-secondary)' }}>
                   Kickoff Sprint
                 </a>
               </div>
@@ -577,7 +577,7 @@ export default function Services() {
                     <li className="d-flex align-items-center gap-2"><i className="bi bi-check-lg text-brand"></i> C-Level Tech Roadmap Presentation</li>
                   </ul>
                 </div>
-                <a href="/#contact" className="btn btn-light w-100 rounded-3">
+                <a href="/contact" className="btn btn-light w-100 rounded-3">
                   Request Architecture Audit
                 </a>
               </div>
@@ -608,7 +608,7 @@ export default function Services() {
               </div>
               <div className="col-lg-4 text-lg-end">
                 <a
-                  href="/#contact"
+                  href="/contact"
                   className="btn btn-light rounded-3 px-4 py-3 fw-semibold d-inline-flex align-items-center gap-2"
                   style={{ color: 'var(--brand-primary)' }}
                 >

@@ -253,8 +253,8 @@ export default function About() {
                   <div className="d-flex align-items-center justify-content-between mb-1">
                     <h3 className="fs-5 fw-bold mb-0">{member.name}</h3>
                     <div className="d-flex gap-2 text-secondary">
-                      <a href="/#contact" className="text-secondary"><i className="bi bi-share"></i></a>
-                      <a href="/#contact" className="text-secondary"><i className="bi bi-terminal"></i></a>
+                      <a href="/contact" className="text-secondary"><i className="bi bi-share"></i></a>
+                      <a href="/contact" className="text-secondary"><i className="bi bi-terminal"></i></a>
                     </div>
                   </div>
                   <small className="text-brand fw-semibold">{member.role}</small>
@@ -514,13 +514,13 @@ export default function About() {
               <div className="col-lg-5">
                 <div className="d-flex flex-column flex-sm-row gap-3 justify-content-lg-end">
                   <a
-                    href="/#contact"
+                    href="/contact"
                     className="btn btn-light rounded-3 px-4 py-3 fw-semibold text-dark d-inline-flex align-items-center justify-content-center gap-2"
                   >
                     Explore Careers
                   </a>
                   <a
-                    href="/#contact"
+                    href="/contact"
                     className="btn brand-gradient rounded-3 px-4 py-3 fw-semibold d-inline-flex align-items-center justify-content-center gap-2"
                   >
                     Initiate Project
